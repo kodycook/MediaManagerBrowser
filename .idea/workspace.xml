@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5730e1d3-185e-49fc-9b23-0e4ac8ca64bb" name="Default Changelist" comment="" />
+    <list default="true" id="5730e1d3-185e-49fc-9b23-0e4ac8ca64bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext/fnv-java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext/media-manager-common" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/MediaType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MediaManagerBrowser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MediaManagerBrowser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/cookware-common" beforeDir="false" afterPath="$PROJECT_DIR$/ext/cookware-common" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppMediaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppMediaItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperPrimewire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperPrimewire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperTornado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperTornado.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,24 +77,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="102" />
+          <entry key="java" value="138" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="138" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="23" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="23" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -83,44 +110,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="30" column="76" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="76" />
+            <state relative-caret-position="347">
+              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext/cookware-common/src/main/java/com/cookware/common/Tools/CsvTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java">
+        <entry file="file://$PROJECT_DIR$/conf/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2339#2355#0" expanded="true" />
-                <element signature="e#3432#3448#0" expanded="true" />
-                <element signature="e#6310#6318#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -134,13 +137,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppMediaItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/ConfigManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperPrimewire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperTornado.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java" />
+        <option value="$PROJECT_DIR$/conf/config.properties" />
       </list>
     </option>
   </component>
@@ -167,7 +173,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -193,73 +199,7 @@
             <path>
               <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="cookware-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="cookware-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="cookware-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="cookware-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="cookware-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="media-manager-browser-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="media-manager-browser-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaManagerBrowser" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,10 +208,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546137065081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546149863754" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../media-manager-core" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kody Cook\Software\media-manager-browser-backend\conf" />
+      <recent name="C:\Users\Kody Cook\Software\media-manager-browser-backend\config" />
+      <recent name="C:\Users\Kody Cook\Software\media-manager-browser-backend\src\main\java\com\cookware\home\MediaManagerBrowser" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cookware.home.MediaManagerBrowser" />
     </key>
@@ -291,6 +239,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cookware.home.MediaManagerBrowser.Launcher" />
+      <module name="MediaManagerBrowser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cookware.home.MediaManagerBrowser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -308,22 +276,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986945" visible="true" weight="0.20255864" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986945" visible="true" weight="0.20255864" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" sideWeight="0.50130546" side_tool="true" type="SLIDING" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18329719" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18242492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.18329719" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.18329719" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18242492" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18242492" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,44 +335,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppMediaItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext/cookware-common/src/main/java/com/cookware/common/Tools/CsvTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -411,42 +342,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="30" column="76" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="76" />
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2680#2696#0" expanded="true" />
+            <element signature="e#3982#3998#0" expanded="true" />
+            <element signature="e#6310#6318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppMediaItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppRequestHandlerRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2339#2355#0" expanded="true" />
-            <element signature="e#3432#3448#0" expanded="true" />
-            <element signature="e#6310#6318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperPrimewire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/WebAppScraperTornado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/MediaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/cookware-common/src/main/java/com/cookware/common/Tools/FileNameTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/cookware-common/src/main/java/com/cookware/common/Tools/WebTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cookware/home/MediaManagerBrowser/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MediaManagerBrowser</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-codec:commons-codec:1.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

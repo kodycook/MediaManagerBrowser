@@ -16,7 +16,7 @@ public class Launcher {
         String configPath;
         if(args.length == 0)
         {
-            configPath = "config/config.properties";
+            configPath = "conf/config.properties";
         }
         else{
             configPath = args[0];
@@ -28,7 +28,7 @@ public class Launcher {
 
         log.info("Launcher Started");
 
-        WebAppRequestHandler webAppRequestHandler = new WebAppRequestHandler();
+        WebAppRequestHandler webAppRequestHandler = new WebAppRequestHandler(config);
     }
 
     public static void instantiateDirectories(){

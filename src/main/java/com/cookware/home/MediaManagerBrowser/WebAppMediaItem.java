@@ -1,4 +1,4 @@
-package com.cookware.home.MediaManagerServer.WebApp;
+package com.cookware.home.MediaManagerBrowser;
 
 /**
  * Created by Kody on 27/10/2017.

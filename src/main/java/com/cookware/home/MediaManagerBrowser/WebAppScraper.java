@@ -1,6 +1,6 @@
-package com.cookware.home.MediaManagerServer.WebApp;
+package com.cookware.home.MediaManagerBrowser;
 
-import com.cookware.home.MediaManagerServer.DataTypes.MediaType;
+import com.cookware.home.MediaManagerBrowser.MediaType;
 
 import java.util.List;
 

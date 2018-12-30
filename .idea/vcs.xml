@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ext/cookware-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ext/fnv-java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ext/media-manager-common" vcs="Git" />
   </component>
 </project>

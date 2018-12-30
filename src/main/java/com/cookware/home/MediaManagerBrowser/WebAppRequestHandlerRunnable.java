@@ -1,6 +1,5 @@
-package com.cookware.home.MediaManagerServer.WebApp;
+package com.cookware.home.MediaManagerBrowser;
 
-import com.cookware.home.MediaManagerServer.DataTypes.Config;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;

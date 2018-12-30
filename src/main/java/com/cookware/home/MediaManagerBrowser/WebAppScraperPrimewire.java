@@ -1,6 +1,6 @@
-package com.cookware.home.MediaManagerServer.WebApp;
+package com.cookware.home.MediaManagerBrowser;
 
-import com.cookware.home.MediaManagerServer.Tools.WebTools;
+import com.cookware.common.Tools.WebTools;
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
