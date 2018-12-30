@@ -1,0 +1,3 @@
+[submodule "ext/cookware-common"]
+	path = ext/cookware-common
+	url = https://github.com/kodycook/cookware-common.git
