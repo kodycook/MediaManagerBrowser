@@ -1,8 +1,11 @@
 package com.cookware.home.MediaManagerBrowser;
 
-import com.cookware.common.Tools.DirectoryTools;
+import com.cookware.common.Utilities.DirectoryInitialiser;
 import org.apache.log4j.*;
 import org.apache.log4j.xml.DOMConfigurator;
+
+import java.io.File;
+import java.net.URL;
 
 
 /**
@@ -13,6 +16,8 @@ public class Launcher {
     private static final Logger log = Logger.getLogger(Launcher.class);
 
     public static void main( String[] args ) {
+
+        setUpDirectory();
 
         String configPath;
         if(args.length == 0)
@@ -29,13 +34,30 @@ public class Launcher {
 
         log.info("Launcher Started");
 
+
+
         WebAppRequestHandler webAppRequestHandler = new WebAppRequestHandler(config);
     }
 
-    public static void instantiateDirectories(){
-        DirectoryTools directoryTools = new DirectoryTools();
-        directoryTools.createNewDirectory("logs");
-        directoryTools.createNewDirectory("data");
-        directoryTools.createNewDirectory("media");
+    private static void setUpDirectory(){
+        String rootDirectory = System.getProperty("user.dir");
+
+        log.info("Root directory is: " + rootDirectory);
+
+        DirectoryInitialiser directoryInitialiser = new DirectoryInitialiser(rootDirectory);
+        createDirectoryStructure(directoryInitialiser);
+        unpackConfig(directoryInitialiser);
+    }
+
+
+    public static void createDirectoryStructure(DirectoryInitialiser directoryInitialiser){
+        directoryInitialiser.createDirectory("conf");
+        directoryInitialiser.createDirectory("logs");
+    }
+
+
+    public static void unpackConfig(DirectoryInitialiser directoryInitialiser){
+        directoryInitialiser.copyResource("config.properties", "conf");
+        directoryInitialiser.copyResource("log4j.xml", "conf");
     }
 }

@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cookware.home.server</groupId>
-  <artifactId>mediaMananger</artifactId>
-  <version>1.03-SNAPSHOT</version>
-  <name>Media Manager</name>
+  <artifactId>media-mananger-browser-backend</artifactId>
+  <version>1.0.4-SNAPSHOT</version>
+  <name>media-mananger-browser-backend</name>
   <url>http://maven.apache.org</url>
 
   <!--TODO: Clean up this POM file for readability-->
@@ -35,7 +35,8 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
-          <finalName>Media Manager</finalName>
+          <finalName>media-mananger-browser-backend-with-dependencies-${project.version}</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
         </configuration>
         <executions>
           <execution>
@@ -55,9 +56,6 @@
     <resources>
       <resource>
         <directory>conf</directory>
-        <excludes>
-          <exclude>log4j.xml</exclude>
-        </excludes>
       </resource>
     </resources>
   </build>
