@@ -75,8 +75,8 @@ public class WebAppRequestHandler {
             else if (key.equals("type")) {
                 type = (String) parameters.get(key);
             }
-            log.info(String.format("Received Media Request with attributes: %s", parameters.toString()));
         }
+        log.info(String.format("Received Media Request with attributes: %s", parameters.toString()));
         return webAppScraper.getMediaOptions(search, type, page);
     }
 

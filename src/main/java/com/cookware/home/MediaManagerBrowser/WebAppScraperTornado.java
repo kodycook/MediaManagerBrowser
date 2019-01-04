@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class WebAppScraperTornado implements WebAppScraper{
     private static final Logger log = Logger.getLogger(WebAppScraperTornado.class);
     private final WebTools webTools = new WebTools();
-    private final String baseUrl = "https://www1.tornadomovies.to";
+    private final String baseUrl = "https://www1.tornadomovies.co";
 
 
     public List<WebAppMediaItem> getMediaOptions(String searchQuery){
@@ -73,6 +73,7 @@ public class WebAppScraperTornado implements WebAppScraper{
         Elements matchedMedia = document.getElementsByAttributeValue("class", "poster");
 
         if(matchedMedia.isEmpty()){
+            log.info("No content found for this search query");
             return foundMedia;
         }
 
@@ -80,13 +81,11 @@ public class WebAppScraperTornado implements WebAppScraper{
         String imageUrl;
         String linkUrl;
         for (Element media : matchedMedia) {
-            title = media.getElementsByClass("poster").attr("data-name");
+            title = media.getElementsByClass("poster").text();
             if(title.endsWith(" HD")){
                 title = title.substring(0, title.length() - 3);
             }
-            imageUrl = media.getElementsByClass("poster").attr("data-img");
-            int queryIndex = imageUrl.lastIndexOf('?');
-            imageUrl = imageUrl.substring(imageUrl.lastIndexOf("url=") + 4, queryIndex);
+            imageUrl = baseUrl.concat(media.getElementsByClass("poster").attr("data-img"));
 
             linkUrl = this.baseUrl + media.getElementsByTag("a").attr("href");
             foundMedia.add(new WebAppMediaItem(title, imageUrl, linkUrl));
